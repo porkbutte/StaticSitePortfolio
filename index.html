@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Nila's - A Southern Table</title>
+		<link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.0/css/bulma.min.css">
+		<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+        <!-- <link rel="stylesheet" href="styles/debug.css"> -->
+        <style>
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+        </style>
+	</head>
+
+    <!-- hero -->
+	<body>
+		<section class="hero has-background-black">
+			<div class="hero-body">
+                    <div class="container">
+                        <div class="columns">
+                            <div class="column">
+                                <figure class ="image-center">
+                                    <img src="images/NilaLogoWhite.png" style="max-width: 383px;">
+                                </figure>
+                            </div>
+                            <div class="column">
+                                
+                            </div>
+                            <div class="column">
+                                
+                        <p class="is-size-5">
+                            Dinner <br>
+                            <p class="is-size-6">
+                                Wednesday thru Saturday <br>
+                                5pm - 10pm 
+                                </p>
+                                <br>
+                        <p class="is-size-5">
+                                Sunday Brunch <br>
+                                <p class="is-size-6">
+                                        9am - 2pm 
+                                        </p>
+                                        <br>
+                        <p class="is-size-6">
+                            Reservations <br>
+                            <a href="opentable.com">Open Table</a>
+                        </p>
+
+                            </div>
+                    </div>
+			</div>
+	    </section>
+    <!-- hero -->
+        <!-- mask image -->
+        <section class="layer">
+            <div class="container">
+                <figure class="image center">
+                    <img src="images/BourbonBraisedPorkBelly.jpg" style="max-width: 1080px;">
+                </figure>
+                <p style="text-align: center";>Bourbon braised pork belly with candied beets, roasted asperagus, creamy grits, and veloute sauce.</p>
+            </div>
+
+    <!-- section -->
+    <section class="section">
+        <div class="container">
+            <div class="columns">
+                
+                <div class="column">
+                    <div class="notification">
+                        <h1 class="title is-size-4">Our Table</h1>
+                        <p class="is-size-5">
+                            Flexbox is a CSS spec that makes sectioning and aligning more natural.
+                            We don't need to know Flexbox but it's how Bulma works behind-the-scenes. ⦤(^ー^)⦥
+                        </p>
+                    </div>
+                </div>    
+                <div class="column">
+                    <div class="notification">
+                        <h1 class="title is-size-4">Our Menu</h1>
+                        <p class="is-size-5">
+                            Instead of writing our CSS per-element, we can use predefined classes.
+                            With enough classes, we can describe our website design using semantics. ٩(^ᴗ^)۶
+                        </p>
+                    </div>
+                </div>    
+            </div>
+            <div class="columns">
+                
+                <div class="column">
+                    <div class="notification">
+                        <h1 class="title is-size-4">Our People</h1>
+                        <p class="is-size-5">
+                            Flexbox is a CSS spec that makes sectioning and aligning more natural.
+                            We don't need to know Flexbox but it's how Bulma works behind-the-scenes. ⦤(^ー^)⦥
+                        </p>
+                    </div>
+                </div>    
+                <div class="column">
+                    <div class="notification">
+                        <h1 class="title is-size-4">Our Community</h1>
+                        <p class="is-size-5">
+                            Instead of writing our CSS per-element, we can use predefined classes.
+                            With enough classes, we can describe our website design using semantics. ٩(^ᴗ^)۶
+                        </p>
+                    </div>
+                </div>    
+            </div>
+
+<div class="carousel" style="max: width 500px";>
+  <img class="mySlides" src="images/carousel/braisedoxtailcollardsbutternetpuree.jpg" style="width:100%">
+  <img class="mySlides" src="images/carousel/brusselapplesalad.jpg" style="width:100%">
+  <img class="mySlides" src="images/carousel/paperplancocktail.jpg" style="width:100%">
+  <img class="mySlides" src="images/carousel/catfishandmash.jpg" style="width:100%">
+  <img class="mySlides" src="images/carousel/ncblackberryjam.jpg" style="width:100%">
+  <img class="mySlides" src="images/carousel/brunchchops.jpg" style="width:100%">
+  <img class="mySlides" src="images/carousel/countryhamcarbonara.jpg" style="width:100%">
+  <img class="mySlides" src="images/carousel/mintjulep.jpg" style="width:100%">
+  <img class="mySlides" src="images/carousel/veggiestack.jpg" style="width:100%">
+  <img class="mySlides" src="images/carousel/redbeansrice.jpg" style="width:100%">
+  <img class="mySlides" src="images/carousel/solefish.jpg" style="width:100%">
+  <img class="mySlides" src="images/carousel/springmushroomtag.jpg" style="width:100%">
+  <img class="mySlides" src="images/carousel/roastchicken.jpg" style="width:100%">
+  
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 3000); // Change image every 2 seconds
+}
+</script>
+
+        </div>
+    </section>
+
+	</body>
+</html>
